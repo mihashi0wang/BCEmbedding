@@ -12,7 +12,7 @@ with open("README.md", mode="r", encoding="utf-8") as f:
 
 setup(
     name='BCEmbedding',
-    version='0.1.5',
+    version='0.1.5.1',
     license='apache-2.0',
     description='A text embedding model and reranking model produced by Netease Youdao Inc., which can be use for dense embedding retrieval and reranking in RAG workflow.',
     long_description=readme,
@@ -23,7 +23,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'torch>=1.6.0',
-        'transformers>=4.35.0,<4.37.0',
+        'transformers>=4.35.0,<5.0.0',
         'datasets',
         'sentence-transformers'
     ]
