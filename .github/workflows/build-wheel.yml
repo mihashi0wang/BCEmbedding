@@ -3,7 +3,7 @@ name: Build and Publish Wheel
 on:
   push:
     branches:
-      - main  # 可以根据需要修改为你的主分支名称
+      - master  # 可以根据需要修改为你的主分支名称
 
 jobs:
   build_wheel:
